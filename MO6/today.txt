@@ -1,0 +1,5 @@
+import datetime
+
+todays_date = datetime.date.today()
+filename = todays_date.strftime('%Y-%m-%d') + '.txt'
+print(filename)
